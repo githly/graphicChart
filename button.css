@@ -1,0 +1,41 @@
+.button {
+    padding:1%;
+    background: pink;
+    color:white;
+    font-weight:bold;
+}
+
+.button:hover{
+  background:deeppink;
+}
+
+.button.neutral {
+border-radius:0.6em;
+}
+
+.button.neutral:hover {
+
+}
+
+.button.validate{
+  box-shadow:5px 5px 5px  rgba(255,192,203,0.69);
+
+}
+
+.button.validate:hover{
+
+}
+
+.button.suppr {
+border-radius:50%;
+}
+
+.button.close{
+  border-radius: 0 50px;
+  transform:5s;
+}
+
+.button.close:hover {
+  background: deeppink;
+  transform:scale(1.6);
+}
